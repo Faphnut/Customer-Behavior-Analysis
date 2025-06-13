@@ -1,71 +1,47 @@
-📊 Customer Behavior Analysis using Clustering
-This project analyzes customer personality and behavioral patterns using unsupervised machine learning techniques, particularly clustering algorithms. The goal is to segment customers based on their purchasing habits and demographic attributes to derive actionable business insights.
+# 📊 Customer Behavior Analysis using Clustering
 
-📁 Dataset
-The dataset is sourced from Kaggle: Customer Personality Analysis, and contains:
+This project analyzes **customer personality** and **behavioral patterns** using **unsupervised machine learning** techniques, particularly **clustering algorithms**. The goal is to segment customers based on their **purchasing habits** and **demographic attributes** to derive **actionable business insights**.
 
-Demographic data (age, income, marital status)
+---
 
-Spending habits across product categories
+## 📁 Dataset
 
-Campaign acceptance and web usage data
+The dataset is sourced from **Kaggle**: [Customer Personality Analysis](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis) and includes:
 
-🚀 Features
-Data preprocessing and cleaning
+- 🧑 Demographic data (age, income, marital status)  
+- 🛍️ Spending habits across product categories  
+- 📈 Campaign acceptance and web usage data  
 
-Feature scaling using StandardScaler
+---
 
-Customer segmentation using KMeans
+## 🚀 Features
 
-Determining optimal number of clusters using the Silhouette Score
+- ✅ Data preprocessing and cleaning  
+- 🔄 Feature scaling using `StandardScaler`  
+- 🤖 Customer segmentation using `KMeans`  
+- 🧮 Optimal cluster selection via **Silhouette Score**  
+- 📊 Visualization with **Seaborn** and **Matplotlib**
 
-Visualization with Seaborn and Matplotlib
+---
 
-🛠️ Tools & Libraries
-Python 3.x
+## 🛠️ Tools & Libraries
 
-Pandas, NumPy
+- **Python 3.x**
+- [`pandas`](https://pandas.pydata.org/)
+- [`numpy`](https://numpy.org/)
+- [`scikit-learn`](https://scikit-learn.org/)
+- [`scipy`](https://scipy.org/)
+- [`seaborn`](https://seaborn.pydata.org/)
+- [`matplotlib`](https://matplotlib.org/)
+- [`kagglehub`](https://github.com/KaggleHub/kagglehub)
 
-Scikit-learn
+---
 
-Seaborn, Matplotlib
+## 📦 Installation
 
-SciPy
+Clone the repository and install the required packages:
 
-KaggleHub
-
-📦 Installation
-Clone this repository and install the required packages:
-
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/yourusername/customer-behavior-clustering.git
 cd customer-behavior-clustering
 pip install -r requirements.txt
-🧠 How it works
-Dataset is downloaded via kagglehub.
-
-Data is explored and cleaned.
-
-Features are scaled for clustering.
-
-KMeans is applied with multiple cluster sizes.
-
-The best number of clusters is selected based on silhouette analysis.
-
-The clusters are visualized to interpret customer groups.
-
-📊 Output
-Cluster visualizations for better understanding
-
-Customer profiles for each segment
-
-Insights to improve marketing and product strategy
-
-📈 Example Visualization
-Add sample plots here (e.g., customer clusters by income and spending)
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
